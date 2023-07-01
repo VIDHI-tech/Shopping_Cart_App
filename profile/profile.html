@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+
+<body>
+    <nav>
+        <div class="brand">
+            <a href="../index.html">MeShop.</a>
+        </div>
+
+        <div class="nav-items">
+            <a href="../index.html">Home</a>
+            <a href="../login/login.html">Login</a>
+            <a href="../signup/signup.html">Signup</a>
+            <a href="../shop/shop.html">Shop</a>
+            <a href="../cart/cart.html">My Cart</a>
+            <a href="../profile/profile.html">Profile</a>
+        </div>
+
+    </nav>
+    <h1 style=" text-align: center; font-size: 40px; margin-bottom: 0;">My Profile</h1>
+    <div class="profile-container" style="margin-top: 0;">
+        <input type="text" placeholder="First Name" id="Firstname">
+        <br/>
+        
+        <input type="text" placeholder="Last Name" id="lastname">
+        <br/>
+        <br/>
+        <button id="saveinfo" onclick="saveinfo()">Save Info</button>
+    </div>
+
+    <h1 style=" text-align: center; font-size: 40px;  margin-top:-50px;">Edit Password</h1>
+    <div class="Editpassword-container">
+        <input type="password" placeholder="Old Password" id="oldpass">
+        <br/>
+       
+        <input type="password" placeholder="New Password" id="newpass">
+        <br/>
+        <input type="password" placeholder="Confirm New Password" id="confirmpass">
+        <br/>
+        <br/>
+        <button id="chnagePass" onclick="changepass()">Change Password</button>
+        <br>
+        <br>
+        <button id="logout" onclick="logout()">Logout</button>
+    </div>
+    <script src="profile.js"></script>
+    </script>
+
+</body>
+
+</html>

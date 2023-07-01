@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="brand">
+        <a href="./index.html">MeShop.</a>
+      </div>
+
+      <div class="nav-items">
+        <a href="./index.html">Home</a>
+        <a href="./login/login.html">Login</a>
+        <a href="./signup/signup.html">Signup</a>
+        <a href="./shop/shop.html">Shop</a>
+        <a href="./cart/cart.html">My Cart</a>
+        <a href="./profile/profile.html">Profile</a>
+      </div>
+    </nav>
+
+    <div class="main">
+      <h1 style="font-size: 60px; font-weight: 400">MeShop.</h1>
+      <br />
+
+      <p>Your First Shop built on HTML,CSS AND JavaScript</p>
+      <br />
+      <div class="button">
+        <button class="btn" onclick="login()">Login</button>
+        <button class="butn" onclick="signup()">Signup</button>
+      </div>
+    </div>
+
+    <div class="image">
+      <img src="img1.png" />
+    </div>
+
+    <script>
+      function login() {
+        window.location.href = "./login/login.html";
+      }
+      function signup() {
+        window.location.href = "./signup/signup.html";
+      }
+    </script>
+  </body>
+</html>
