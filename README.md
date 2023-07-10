@@ -16,8 +16,9 @@ storage APIs and basic API calls while also dealing with complex DOM Manipulatio
 
 
 ## Resources
-[Figma Link](https://www.figma.com/file/0LzO7mD7G9JDYXbaOK8wuI/Shopping-Cart-Contest?node-id=0%3A1&t=YOclG9pB48jKYKMl-1)
-[API EndPoint](https://fakestoreapi.com/)
-[Get Request For Products](https://fakestoreapi.com/products)
+1. [Figma Link](https://www.figma.com/file/0LzO7mD7G9JDYXbaOK8wuI/Shopping-Cart-Contest?node-id=0%3A1&t=YOclG9pB48jKYKMl-1)
+2. [API EndPoint](https://fakestoreapi.com/)
+3. [Get Request For Products](https://fakestoreapi.com/products)
+
 
 
