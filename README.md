@@ -1,7 +1,6 @@
 # **Shopping_Cart_App**
 
-a simple shopping cart application using html,css and Advanced JS concepts. The topics we’ll cover include promises, async await , using 
-storage APIs and basic API calls while also dealing with complex DOM Manipulations.
+Created a simple shopping cart application with Online Payment facility by using html,css and Advanced JS concepts. The topics that included promises, async await , using storage APIs and basic API calls while dealing with complex DOM Manipulations.
 
 
 ## Project Features
