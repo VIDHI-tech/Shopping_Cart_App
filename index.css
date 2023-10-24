@@ -72,6 +72,15 @@ datalist {
   font-size: 25px;
 }
 
+@keyframes reveal {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+.main h1 {
+  animation: reveal 2s steps(11, end) infinite;
+}
+
 .btn {
   outline: none;
   background-color: black;
