@@ -10,7 +10,9 @@
   <body>
     <nav>
       <div class="brand">
-        <a href="./index.html"><span style="color: cornflowerblue;">Shop</span>It!</a>
+        <a href="./index.html"
+          ><span style="color: cornflowerblue">Shop</span>It!</a
+        >
       </div>
 
       <div class="nav-items">
@@ -24,11 +26,10 @@
     </nav>
 
     <div class="main">
-      <h1 style="font-size: 60px; font-weight: 400">ShopIt !</h1>
+      <h1 style="font-size: 60px; font-weight: 400" id="output"></h1>
       <br />
 
-      <p style="color: navy;">Quality never goes out of style.</p>
-      
+      <p style="color: navy">Quality never goes out of style.</p>
 
       <p>Modern shipping that is cheap, fast and reliable.</p>
       <br />
@@ -44,6 +45,27 @@
     </div>
 
     <script>
+      var text = "ShopIt !";
+
+      var output = document.getElementById("output");
+
+      function typeText(index) {
+        if (index <= text.length) {
+          output.innerHTML =
+            text.substring(0, index) + '<span class="cursor"></span>';
+          setTimeout(function () {
+            typeText(index + 1);
+          }, 200);
+        } else {
+          setTimeout(function () {
+            output.innerHTML = "";
+            typeText(0);
+          }, 1000); 
+         }
+      }
+
+      typeText(0);
+
       function login() {
         window.location.href = "./login/login.html";
       }
