@@ -44,6 +44,10 @@ a {
   text-decoration: none;
 }
 
+a:hover{
+  font-weight: bolder;
+}
+
 ul {
   list-style: none;
 }
@@ -85,8 +89,15 @@ datalist {
   font-size: 16px;
 }
 
+.btn:hover, .butn:hover{
+  cursor: pointer;
+  transition: ease-out;
+  background-color: dimgray;
+}
+
 .image img {
   margin-top: -200px;
+  margin-right: 20px;
   height: auto;
   width: 60%;
   display: flex;
