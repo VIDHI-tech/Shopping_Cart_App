@@ -72,13 +72,19 @@ datalist {
   font-size: 25px;
 }
 
-@keyframes reveal {
-    from { width: 0; }
-    to { width: 100%; }
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
 }
 
-.main h1 {
-  animation: reveal 2s steps(11, end) infinite;
+.cursor {
+  display: inline-block;
+  width: 8px;
+  animation: blink 1s step-end infinite;
 }
 
 .btn {
